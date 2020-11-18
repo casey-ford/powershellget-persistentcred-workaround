@@ -1,0 +1,1 @@
+# powershellget-persistentcred-workaround
