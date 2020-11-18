@@ -10,13 +10,18 @@ This contains Powershell for generating an encrypted credential and creating a P
     `PS C:\> $PSDefaultParameterValues`
 
    ` Name                           Value`
+
    ` ----                           -----`
+
    ` Find-Module:Credential         System.Management.Automation.PSCredential`
+   
    ` Register-PSRepository:Credent… System.Management.Automation.PSCredential`
 
 To remove the default parameter values, remove the profile file located here: `$PROFILE.CurrentUserCurrentHost`
 
 # Try with Artifactory
 Authenticated repo URL: [https://relativity.jfrog.io/relativity/api/nuget/powershell-sandbox](https://relativity.jfrog.io/relativity/api/nuget/powershell-sandbox)
+
 `Register-PSRepository -Name "JFrog" -SourceLocation "https://relativity.jfrog.io/relativity/api/nuget/powershell-sandbox" -InstallationPolicy Trusted`
+
 `Find-Module -Repository JFrog`
