@@ -1,7 +1,7 @@
 #Create Encrypted Credential
 #This credential can only be decrypted on tha machine it was generated and by the user who generated it
 $CredentialPath = "${env:\USERPROFILE}\jfrog.xml"
-$Credential = Get-Credential -UserName $env:USERNAME
+$Credential = Get-Credential
 $Credential | Export-Clixml -Path $CredentialPath
 
 #Generate Powershell Profile Content
