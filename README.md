@@ -5,7 +5,7 @@ This contains Powershell for generating an encrypted credential and creating a P
 **Usage**
 1. Run Create-Credential.ps1 - This will prompt for a password and store the encrypted file in the user profile folder. This will also generate Set-DefaultParameterValue.ps1. 
 2. Run Update-PSProfile.ps1 - This will create your profile file and import the generated content from Set-DefaultParameterValue.ps1. 
-3. Open Powershell, go, go go - The verify look at the $PSDefaultParameterValues variable
+3. Open Powershell, go, go go - To verify look at the $PSDefaultParameterValues variable
 
     `PS C:\> $PSDefaultParameterValues`
 
