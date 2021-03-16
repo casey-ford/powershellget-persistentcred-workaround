@@ -25,3 +25,5 @@ Authenticated repo URL: [https://relativity.jfrog.io/relativity/api/nuget/powers
 `Register-PSRepository -Name "JFrog" -SourceLocation "https://relativity.jfrog.io/relativity/api/nuget/powershell-sandbox" -InstallationPolicy Trusted`
 
 `Find-Module -Repository JFrog`
+
+# Try with Jira
